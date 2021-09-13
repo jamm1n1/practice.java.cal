@@ -1,6 +1,8 @@
-package calender;
+package cal;
 
 import java.util.Scanner;
+
+import calender.calender;
 
 public class calender2 {
 
@@ -29,3 +31,5 @@ public class calender2 {
 }
 }
 
+
+}
