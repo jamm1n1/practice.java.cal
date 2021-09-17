@@ -10,24 +10,35 @@ int a, b;
 
 
 public void set (int a, int b) {
+	System.out.print(">>");
 	int a1 = scanner.nextInt();
 	this.a = a1;
+	System.out.println("값을 대입해주세요.");
+	System.out.print(">>");
 	int b1 = scanner.nextInt();
 	this.b = b1;
 }
 
  
 public void sum () {
-	System.out.println(this.a+this.b);
+	System.out.print("더한값은 ");
+	System.out.print(this.a+this.b);
+	System.out.println(" 입니다.");
 }
 public void minus() {
-	System.out.println(this.a-this.b);	
+	System.out.print("뺸값은 ");
+	System.out.print(this.a-this.b);	
+	System.out.println(" 입니다.");
 }
 public void div() {
-	System.out.println(this.a/this.b);
+	System.out.print("나눈값은 ");
+	System.out.print(this.a/this.b);
+	System.out.println(" 입니다.");
 }
 public void mul() {
-	System.out.println(this.a*this.b);
+	System.out.print("곱한값은 ");
+	System.out.print(this.a*this.b);
+	System.out.println(" 입니다.");
 }
 }
 public class cal {
