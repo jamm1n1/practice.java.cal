@@ -39,8 +39,10 @@ public void mul() {
 	System.out.print("곱한값은 ");
 	System.out.print(this.a*this.b);
 	System.out.println(" 입니다.");
+	
 }
 }
+ 
 public class cal {
 
 	public static void main(String[] args) {
