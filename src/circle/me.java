@@ -6,9 +6,10 @@ public class me {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-	
+	while(true)
 		is_prime(sc.nextInt());
 	}
+	
 	public static void is_prime(int num) {
 		if(num<2) {
 			System.out.println("소수가 아닙니다.");
