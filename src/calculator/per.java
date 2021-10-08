@@ -15,9 +15,10 @@ System.out.print("수를 입력하세요 >>");
 	        	if(a%i==0) {
 	        		System.out.print(i+" ");
 	        		cnt++;
+	        		
 	        	}
 	        }
-System.out.println("약수의 갯수"+cnt);
+	        System.out.println("약수의 갯수"+cnt);
 	}
 	}
 	
