@@ -6,6 +6,7 @@ public class football {
 
 	public static void main(String[]args){
 		System.out.println("Âü°¡ÆÀÀÇ °¹¼ö¸¦ ¾²½Ã¿À");
+		System.out.print(">>");
 		Scanner sc = new Scanner(System.in);
 		while(true) {
 		int match = sc.nextInt();
